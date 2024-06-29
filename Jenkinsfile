@@ -6,17 +6,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building your name'
+                echo 'Building Ammar'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing your name'
+                echo 'Testing Ammar'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying your name'
+                echo 'Deploying Ammar'
             }
         }
     }
